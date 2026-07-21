@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+body{
+    background-color:#111111;
+    color:#ffffff;
+    font-family:"Yu Gothic UI","Yu Gothic","Hiragino Sans",sans-serif;
+    margin:0;
+}
+
+p{
+    font-size:90%;
+    line-height:1.8;
+}
+
+h1{
+    font-size:180%;
+    color:#ffffff;
+    text-shadow:3px 3px 5px #ff0000;
+    letter-spacing:3px;
+}
+
+h2{
+    font-size:120%;
+    color:#ff0000;
+    border-left:5px solid #ff0000;
+    padding-left:10px;
+}
+
+header{
+    background-color:#000000;
+    color:#ffffff;
+    padding:20px;
+    text-align:center;
+    border-bottom:4px solid #ff0000;
+}
+
+img{
+    display:block;
+    margin:0 auto 20px;
+    max-width:100%;
+}
+
+.logo{
+    width:500px;
+    height:auto;
+}
+
+.mainimage{
+    float:left;
+    width:200px;
+    height:auto;
+    margin:0 20px 10px 0;
+}
+
+.clear{
+    clear:both;
+}
+
+.welcome{
+    color:#ff0000;
+    text-align:center;
+}
+
+.content{
+    background-color:#1a1a1a;
+    border:2px solid #ffffff;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+section{
+    background-color:#000000;
+    border:2px solid #ff0000;
+    padding:15px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(255,0,0,0.3);
+    border-radius:15px;
+    clear:both;
+}
+
+section:hover{
+    border-color:#ffffff;
+}
+
+article{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+nav{
+    background-color:#1a1a1a;
+    padding:10px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    margin:0 15px;
+}
+
+ul{
+    list-style-image:url("../image/icon.png");
+}
+
+ol{
+    list-style-type:upper-roman;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+.red{
+    color:#ff0000;
+    font-weight:bold;
+}
+
+.breadcrumb{
+    list-style:none;
+    padding:0;
+    margin:10px 0 20px;
+}
+
+.breadcrumb li{
+    display:inline;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link{
+    color:#ffffff;
+}
+
+a:visited{
+    color:#cccccc;
+}
+
+a:hover{
+    color:#ff0000;
+    text-decoration:underline;
+}
+
+a:active{
+    color:#ffff00;
+}
+
+.toplink{
+    text-align:right;
+    margin-top:20px;
+}
+
+.toplink a{
+    font-weight:bold;
+}
+
+footer{
+    background-color:#000000;
+    color:#ffffff;
+    text-align:center;
+    padding:10px;
+    border-top:4px solid #ff0000;
+}
+
+@media screen and (max-width:768px){
+
+    nav ul{
+        display:block;
+        text-align:center;
+    }
+
+    .mainimage{
+        float:none;
+        width:100%;
+        max-width:500px;
+        margin:0 auto 20px;
+    }
+
+    .logo{
+        width:100%;
+        max-width:500px;
+    }
+}
